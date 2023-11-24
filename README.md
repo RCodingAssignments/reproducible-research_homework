@@ -1,5 +1,8 @@
 # Reproducible research: version control and R
 
+Link for questions 1,2,3-
+
+
 Question 4-
 
 While both paths are random, they each exhibit different dynamics. Both paths start at the origin but then terminate at different locations- path1 ends at (-3.1,-5.4) while path2 ends at (2.7,-2). 
@@ -10,6 +13,10 @@ A random seed is a number used to intitate a random number generator. This seed 
 
 Question 5-
 
+rows= 33
+columns= 13
+
+To model the data in a linear fashion, one could apply a log transformation to the equation: **$`V = \beta L^{\alpha}`$**. After logging both sides, the resulting equation is lnV=ln($\beta$) +($\alpha$)lnL.
 
 
 ## Instructions
