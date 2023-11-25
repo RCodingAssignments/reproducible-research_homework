@@ -16,7 +16,7 @@ Question 5-
 rows= 33
 columns= 13
 
-To model the data in a linear fashion, one could apply a log transformation to the equation: **$`V = \beta L^{\alpha}`$**. After logging both sides, the resulting equation is lnV=ln$\beta$ +$\alpha$lnL. When compared to the linear line equation y=mx+c, m (the gradient) is $\alpha$ and c (the y-intercept) is ln$\beta$. The paramaters estimated by this linear model are: m= 2.878e-03 and c= 1.299e+01. This means that $\alpha$= 2.878e-03 and $\beta$=exp(1.299e+01). 
+To model the data in a linear fashion, one could apply a log transformation to the equation: **$`V = \beta L^{\alpha}`$**. After logging both sides, the resulting equation is lnV=ln($\beta$) +($\alpha$)lnL. When compared to the linear line equation y=mx+c, m (the gradient) is $\alpha$ and c (the y-intercept) is ln$\beta$. The paramaters estimated by this linear model are: m= 2.878e-03 and c= 1.299e+01. This means that $\alpha$= 2.878e-03 and $\beta$=exp(1.299e+01). 
 
 
 ## Instructions
