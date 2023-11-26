@@ -7,7 +7,7 @@ library(dplyr)
 library(janitor)
 
 #loading the data 
-data <- read.csv("question-5-data/Cui_etal2014.csv", header = TRUE) #the 1st coloumn is just the row number 
+data <- read.csv("question-5-data/Cui_etal2014.csv", header = TRUE) #the 1st column is just the row number 
 
 #changing the data to make it more R friendly 
 virus_data <- clean_names(data)
