@@ -18,7 +18,13 @@ columns= 13
 
 To model the data in a linear fashion, one could apply a log transformation to the equation: **$`V = \beta L^{\alpha}`$**. After logging both sides, the resulting equation is lnV=ln($\beta$) +($\alpha$)lnL. When compared to the linear line equation y=mx+c, m (the gradient) is $\alpha$ and c (the y-intercept) is ln($\beta$). The paramaters estimated by this linear model are: m=  1.5152 and c= 7.0748. This means that $\alpha$= 1.5152 and $\beta$=exp(7.0748). Both of these values are significant as the corresponding p values are <0.05. The p value of the $\alpha$ estimate is 6.44e-10 and the p value of the ln($\beta$) value, and in turn the $\beta$ estimate is 2.28e-10. These estimates are very similar to the ones found in the original paper- I estimated 1.5152 for $\alpha$ and the paper estimated 1.52, and I estimated exp(7.0748) (~1182) for $\beta$ which is what the paper estimated. 
 
-The code for the figure is provided in the repo. 
+Code for the figure (also provided in the repo)-
+figure <- ggplot(data=virus_data_log, aes(x=length_log, y=volume_log))+
+  geom_point()+
+  geom_smooth(method = "lm")+
+  theme_bw()+
+  labs(x="log[Genome length (kb)]", y="log[Virion volume(nm3)]")
+figure
 
 Based on my estimated values, virion volume can be estimated by the equation: V=exp(7.0748)*genome length^1.5152. Therefore, when the genome length is 300 kb, the estimated virion volume is exp(7.0748)*300,000^1.5152= 6697006.58117nm<sup>3</sup>. 
 
