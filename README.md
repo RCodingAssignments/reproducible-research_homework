@@ -24,6 +24,7 @@ Based on my estimated values, virion volume can be estimated by the equation: V=
 
 Bonus question-
 
+Reproducibility is when the data, analysed using the same methods, produces the same results. On the other hand, replicabiility is when the analysis is repeated using the same methods, different data, and produces the same results. In the case of the virion volume data, if someone repeated the analysis using the method and estimated the same $alpha$ and $beta$ values, this analysis is reproducible. If the same analysis was conducted on a different set of dsDNA virus data and the same $alpha$ and $beta$ values were estimated, this analysis is replicable. Github provides the ability for computing analyses to be both reproducible and replicable. Regarding the former, one could go back to a previous repository of theirs to access the code and data, and repeat the analysis they intitially done. If the same results are found, this analysis is reproducible. Public repositories enable the replicability of work to be tested- one could apply the same code (methods) to a different set of data and if the same results are obtained, the initial study is replicable. 
 
 
 
