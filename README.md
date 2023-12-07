@@ -20,7 +20,7 @@ To model the data in a linear fashion, one could apply a log transformation to t
 
 Code for the figure is provided in the repo
 
-Based on my estimated values, virion volume can be estimated by the equation: V=exp(7.0748)*genome length^1.5152. Therefore, when the genome length is 300 kb, the estimated virion volume is exp(7.0748)*300,000^(1.5152)= 6697006.58117nm<sup>3</sup>. 
+Based on my estimated values, virion volume can be estimated by the equation: V=exp(7.0748)*genome length^1.5152. Therefore, when the genome length is 300 kb, the estimated virion volume is exp(7.0748)*300^(1.5152)= 6,697,006.58117nm<sup>3</sup>. 
 
 Bonus question-
 
