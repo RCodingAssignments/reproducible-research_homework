@@ -11,6 +11,9 @@ A random seed is a number used to intitate a random number generator. This seed 
 
 The reason why the brownian motion code produces a different path each time is because each time the code is executed, a different, randomly generated angle is used. To make the brownian motion simulation reproducible the angle used must remain constant. As such, I have added the set.seed() function in the code, to ensure the same seed is used each time, and that the path generated is the same. 
 
+<img width="1419" alt="Screenshot 2023-12-07 at 22 09 07" src="https://github.com/RCodingAssignments/reproducible-research_homework/assets/151633221/75653d1b-9358-4065-8805-c56e4ca18852">
+
+
 Question 5-
 
 rows= 33
